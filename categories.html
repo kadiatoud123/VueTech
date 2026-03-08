@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VueTech</title>
+</head>
+
+<body style="background-color: #f2f2f2; margin: 0;">
+
+    <!-- Top Header where logo is -->
+    <header style="background-color:#1d3845; padding:15px; ">
+
+        <div id="top header">
+            <img src="logo.png" style="height: 50px;"/>
+            <div style="float:right; text-align:right;">
+                <a href="login.html" style= "display:block; color: white;"> Log In / Sign Up</a>
+                <img src="heart-icon-14.png" style="height: 25px; margin-top: 15px; "/>
+                <div style="display: inline; float:right; margin: 4px;"> <a href="cart.html" style="color: white;"><p>Cart</p></a></div>
+                <img src="cart.png" style="margin-left: 5px;height: 25px;margin-top: 15px; "/>
+            </div>    
+        </div>
+    </header>    
+
+    <!-- Botoom Header where nav links are -->
+    <header style="background-color:#3f5f6f; padding:10px; ">
+        <div>
+            
+            <nav>
+                <a href="TechStore.html" style="color:white; margin-right:20px;">Home</a>
+                <a href="about.html" style="color:white; margin-right:20px;">About Us</a>
+                <a href="categories.html" style="color:white; margin-right:20px;">Categories</a>
+                <a href="bestsellers.html" style="color:white; margin-right:20px;">Bestsellers</a>
+                <a href="new.html" style="color:white; margin-right:20px;">New Arrivals</a>
+                <a href="contact.html" style="color:white; margin-right:20px;"> Contact Us</a>
+            </nav>
+        </div>  
+        
+    </header>
+    
+    
+    
+
+    <div id="rest of page" style="margin:10px;">
+    <div id="explore" style= "background-color:#1d3845; padding:15px;margin-top: 40px;">
+        
+        <h1 style="color:white; text-align: center;">Explore Our Different Categories Below</h1>
+        
+            
+    </div>
+    
+    
+    <!-- Categories -->
+    <div style=" background-color: white; padding: 15px; margin-top: 15px;">
+        <h1 style="margin:20px;">Shop By Category</h1>
+        <button 
+        style="
+            background-image:url('laptop_bg.png');
+            background-size:cover;
+            color:white;
+            margin-top: 30px;
+            margin-left: 50px;
+            background-position:center;
+            height:400px;
+            width:400px;
+            border:none;
+            font-size:90px;
+            border-radius: 5px;
+            cursor:pointer;
+            font-size: 30px;
+            text-shadow: 1px 1px 10px black;
+            "
+        onclick="window.location.href='laptops.html'"
+        >
+        Laptops
+        </button>
+
+        <button 
+        style="
+            background-image:url('gaming.png');
+            background-size:cover;
+            color:white;
+            border:none;
+            margin-top: 30px;
+            margin-left: 50px;
+            background-position:center;
+            height:400px;
+            width:400px;
+            font-size:20px;
+            border-radius: 5px;
+            cursor:pointer;
+            font-size: 30px;
+            text-shadow: 2px 2px 5px black;
+            "
+        onclick="window.location.href='gaming.html'"
+        >
+        Gaming & Entertainment
+        </button>
+
+        <button id="Mobile Devices"
+        style="
+            background-image:url('smartphone_bg.png');
+            background-size:cover;
+            color:white;
+            margin-top: 30px;
+            border:none;
+            margin-left: 50px;
+            background-position:center;
+            height:400px;
+            width:400px;
+            font-size:20px;
+            border-radius: 5px;
+            cursor:pointer;
+            font-size: 30px;
+            text-shadow: 2px 2px 5px black;
+            "
+        onclick="window.location.href='mobile.html'"
+        >
+        Mobile Devices
+        </button>
+    </div>
+
+    <!-- Brands -->
+    <div style=" background-color: white; padding: 15px; margin-top: 15px;">
+        <h1 style="margin:20px;">Shop By Brand</h1>
+        <button id="Apple"
+        style="
+            background-image:url('apple-logo.png');
+            background-size:cover;
+            color:white;
+            margin-top: 30px;
+            margin-left: 50px;
+            background-position:center;
+            height:400px;
+            width:400px;
+            border:none;
+            font-size:90px;
+            border-radius: 5px;
+            cursor:pointer;
+            font-size: 30px;
+            text-shadow: 1px 1px 10px black;
+            "
+        
+        onclick="window.location.href='apple.html'"
+        >
+        
+        </button>
+
+        <button id=""
+        style="
+            background-image:url('microsoft_logo.png');
+            background-size:cover;
+            color:white;
+            border:none;
+            margin-top: 30px;
+            margin-left: 50px;
+            background-position:center;
+            height:400px;
+            width:400px;
+            font-size:20px;
+            border-radius: 5px;
+            cursor:pointer;
+            font-size: 30px;
+            text-shadow: 2px 2px 5px black;
+            "
+        
+        onclick="window.location.href='microsoft.html'"
+        >
+       
+        </button>
+
+        <button id=""
+        style="
+            background-image:url('samsung_logo.webp');
+            background-size:cover;
+            color:white;
+            margin-top: 30px;
+            border:none;
+            margin-left: 50px;
+            background-position:center;
+            height:400px;
+            width:400px;
+            font-size:20px;
+            border-radius: 5px;
+            cursor:pointer;
+            font-size: 30px;
+            text-shadow: 2px 2px 5px black;
+            "
+        onclick="window.location.href='samsung.html'"
+        >
+        </button>
+    </div>
+    </div>
+
+    <footer style="background-color:#1d3845; padding:80px; text-align:center;color:white; font-size: 30px; display: block;">
+        Have Questions? 
+       <a href="contact.html" style="color: white;">Contact Us </a>
+
+    
+    </footer>
+
+    
+        
+</body>
+</html>
